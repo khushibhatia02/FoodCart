@@ -1,0 +1,84 @@
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logout{
+    text-decoration: none;
+    color: aliceblue;
+    float: right;
+    font-size: 17px;
+}
+#homelink{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+#homelink:hover{
+    color: rgb(241, 123, 50);
+}
+.header{
+    margin-top: 25px;
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    text-align: center;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+#formheading{
+    color: rgb(220, 191, 246);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+.form{
+    color: rgb(224, 208, 239);
+    font-size: 25px;
+    margin-top: 15px;
+}
+.input1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.input2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.input3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.input4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#submit{
+    margin-bottom: 20px;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    color: rgb(143, 123, 161);
+    border-radius: 10px;
+    font-weight: 550;
+}
+.all-input{
+    font-size: 15px;
+    border-radius: 10px;
+    width: 125px;
+    height: 30px;
+    text-align: center;
+    font-weight: 550;
+}
+
+

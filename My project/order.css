@@ -1,0 +1,72 @@
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logout{
+    text-decoration: none;
+    color: aliceblue;
+    float: right;
+    font-size: 17px;
+}
+#homelink{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+#homelink:hover{
+    color: rgb(241, 123, 50);
+}
+.header{
+    margin-top: 25px;
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#italian-header, #mexican-header, #chinese-header{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.items{
+    display: inline-block;
+    margin: 25px 25px 25px 25px;
+    font-size: 20px;
+    color: rgb(245, 245, 194);
+    font-weight: 540;
+}
+.images{
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.selection{
+    height: 30px;
+    width: 150px;
+    border-radius: 7px;
+    color: rgb(123, 100, 9);
+    font-size: 15px;
+}
+#submit-button{
+    margin-left: 45%;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 500;
+    color:rgb(243, 231, 231);
+    border-radius: 10px;
+    background-color: rgb(156, 23, 8);
+}
+#submit-button:hover{
+    cursor: pointer;
+}

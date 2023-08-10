@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href="logo.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"></script>
+    <title>Signup Page</title>
+</head>
+<body>
+    <div class="full">
+        <div class = "text">
+            <div id = "signup">
+                SignUp
+            </div>
+            <div id = "customer">
+                Customer
+            </div>
+        </div>
+        <div class="form">
+            <form  method="post">
+            <p id="error" name="error"></p>
+            <div id = "input1">
+                <label id = "username-label" for = "username"> UserName</label>
+                <br>
+                <input class = "inputs" id = "username" required type="text" placeholder="Please Enter UserName" onchange="checkUsername()">
+            </div>
+            <div id = "input2">
+                <label id="email-label"  for = "email"> Email-ID</label>
+                <br>
+                <input class = "inputs" id = "email" required type="email" placeholder="abc@example.com">
+            </div>
+            <div id = "input3">
+                <label id="password1-label" for = "password1"> Create Password</label>
+                <br>
+                <input class = "inputs"id = "password1" required type="password" placeholder="Please Enter Password" onchange="checkPassword()">
+            </div>
+            <div id="input4">
+                <label id="password2-label" for = "password2"> Re-Enter Password</label>
+                <br>
+                <input class = "inputs" id = "password2" required type="password" placeholder="Confirm Password" onchange="checkRepassword()">
+            </div>
+            <div>
+                <button id = "signup-button" type="submit" value="SignUp" onclick="checkForError()"></button>
+            </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

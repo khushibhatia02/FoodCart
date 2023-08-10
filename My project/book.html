@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.JPG" type="image/x-icon">
+    <link rel = "stylesheet" href = "book.css">
+    <title>Book a Table</title>
+</head>
+<body>
+    <div class="full">
+        <a id = "logout" href = index.html>Logout</a>
+        <a id = "homelink" href = home.html>Back To Home Page</a>
+        <div class = "header">
+            Food Cart
+        </div>
+        <div class="container">
+            <div id = "formheading">
+                Book Table
+                </div>
+                <form class="form">
+                    <div class="input1">
+                    <label for="city"> City</label>
+                    <br>
+                    <select class="all-input" id = "city">
+                        <option>Hyderabad</option>
+                        <option>Banglore</option>
+                        <option>Chennai</option>
+                    </select>
+                    </div>
+                    <div class="input2">
+                    <label for = "date">Date</label>
+                    <br>
+                    <input class="all-input"  id = "date" type="date" required>
+                    </div>
+                    <div class="input3">
+                        <label for="time">Time</label>
+                        <br>
+                        <input class="all-input" id="time" type="time" required>
+                    </div>
+                    <div class="input4">
+                        <label for="table"> Select Tables</label>
+                        <br>
+                        <input class="all-input" id="table" type="number" min="1" max="15" required>
+                    </div>
+                    <div class="submit">
+                        <input id="submit" type="submit" onclick="alert('Table Booked Successfully')">
+                    </div>
+                </form>
+     </div>
+  </div>
+</body>
+</html>

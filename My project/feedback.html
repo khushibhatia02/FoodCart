@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.JPG" type="image/x-icon">
+    <link rel = "stylesheet" href = "feedback.css">
+    <title>Feedback Page</title>
+</head>
+<body>
+    <div class="full">
+        <a id = logout href = index.html>Logout</a>
+        <a id = "homelink" href = home.html>Back To Home Page</a>
+        <div class = "header">
+            Food Cart
+        </div>
+        <div class="container">
+            <div class="heading"> Leave a Message For Us</div>
+            <form class="feedback-form" method="post">
+                <input class="inputs" id="name" type="text" placeholder="Name">
+                <br>
+                <input class="inputs" id="email" type="email" placeholder="Email ID" required>
+                <br>
+                <input class="inputs" id="phone" type="text" placeholder="Phone Number">
+                <br>
+                <textarea class="inputs" id="message" placeholder="Message For Us" required></textarea>
+                <br>
+                <input id="submit-button" type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
